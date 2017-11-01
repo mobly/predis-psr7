@@ -1,0 +1,23 @@
+{
+  "name": "mobly/predis-psr7",
+  "description": "Predis PSR-7 Adapter",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Mobly\\Cache\\Adapter\\Predis\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=5.4",
+    "mobly/adapter-psr7": "~1.0",
+    "predis/predis": "^2.0@dev"
+  },
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Mobly Developers",
+      "email": "dev@mobly.com.br"
+    }
+  ],
+  "minimum-stability": "dev"
+}
